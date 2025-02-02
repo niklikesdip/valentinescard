@@ -2,26 +2,44 @@
 <html>
 <head>
   <title>No - How Could You!</title>
+  <style>
+    body {
+      background-color: #1a1a5b; /* Dark blue background */
+      color: #ffffff; /* White text for contrast */
+      font-family: 'Arial', sans-serif; /* Same font as "Yes" page */
+      text-align: center; /* Center all content */
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #ffcccc; /* Light pink to reflect sadness */
+    }
+    p {
+      font-size: 1.2em;
+      margin: 15px 0;
+    }
+    .image-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px; /* Space between images */
+      margin-top: 20px;
+    }
+    img {
+      border: 5px solid #4d4d99; /* Blue border around images */
+      border-radius: 15px; /* Rounded corners */
+      width: 250px;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
   <h1>How could you say no? 😢</h1>
   <p>You're so mean... Look at these sad cats:</p>
-
-  <!-- First Image -->
-  <a href="sad-cat.jpg" target="_blank">
-    <img src="sad-cat.jpg" alt="Sad Cat 1" width="300">
-  </a>
-
-  <!-- Second Image -->
-  <a href="sad-cat2.jpg" target="_blank">
-    <img src="sad-cat2.jpg" alt="Sad Cat 2" width="300">
-  </a>
-
-  <!-- Third Image -->
-  <a href="sad-cat3.jpg" target="_blank">
-    <img src="sad-cat3.jpg" alt="Sad Cat 3" width="300">
-  </a>
-
+  <div class="image-container">
+    <img src="sad-cat.jpg" alt="Sad Cat 1">
+    <img src="sad-cat2.jpg" alt="Sad Cat 2">
+    <img src="sad-cat3.jpg" alt="Sad Cat 3">
+  </div>
   <p>😭</p>
 </body>
 </html>
